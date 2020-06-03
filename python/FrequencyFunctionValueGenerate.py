@@ -21,7 +21,7 @@ for i in range(14):
 
 tts.sort(key=lambda x:x.val,reverse=True)
 
-for shit in tts:
-  print("s{1} r{2} \n   {0:.0f}".format(shit.val,shit.s,shit.r))
+for stuff in tts:
+  print("s{1} r{2} \n   {0:.0f}".format(stuff.val,stuff.s,stuff.r))
 
 print("\n\n\n\nSIZE {}".format(len(tts)))
